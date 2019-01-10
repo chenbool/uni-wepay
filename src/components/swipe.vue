@@ -16,6 +16,7 @@
 			return {
                 images: [
                     'https://img.yzcdn.cn/2.jpg',
+                    'https://img.yzcdn.cn/2.jpg',
                     'https://img.yzcdn.cn/2.jpg'
                 ]
 			}

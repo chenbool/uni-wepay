@@ -13,7 +13,7 @@
 			<van-tabbar-item icon="home-o">首页</van-tabbar-item>
 			<van-tabbar-item icon="search">行情</van-tabbar-item>
 			<van-tabbar-item icon="friends-o">交易</van-tabbar-item>
-			<van-tabbar-item icon="user-o" dot>用户</van-tabbar-item>
+			<van-tabbar-item icon="user-o" to="/pages/user/index" dot>用户</van-tabbar-item>
 		</van-tabbar>
 
 	</view>

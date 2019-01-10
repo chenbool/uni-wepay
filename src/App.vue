@@ -1,4 +1,5 @@
 <script>
+	import Foot from '@/components/foot'
 	export default {
 		onLaunch: function () {
 			console.log('App Launch')
@@ -8,7 +9,7 @@
 		},
 		onHide: function () {
 			console.log('App Hide')
-		}
+		},
 	}
 </script>
 
