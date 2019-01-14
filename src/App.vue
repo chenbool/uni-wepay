@@ -1,5 +1,4 @@
 <script>
-	import Foot from '@/components/foot'
 	export default {
 		onLaunch: function () {
 			console.log('App Launch')
@@ -17,5 +16,10 @@
 	/*每个页面公共css */
 	.uni-page-head{
 		border-bottom: 1px solid rgba(143,143,148, 0.2);
+	}
+	.van-nav-bar{
+		position: fixed;
+		top: 0;
+		left: 0;
 	}
 </style>

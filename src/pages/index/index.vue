@@ -1,24 +1,24 @@
 <template>
 	<view class="content">
-        <!-- <image class="logo" src="../../static/logo.png"></image> -->
+
 		<swipe></swipe>
 		<view>
             <text class="title">{{title}}</text>
         </view>
-
-		<foot></foot>
+		<van-nav-bar title="首页"/>
+		<!-- <app-head></app-head> -->
+		<app-foot></app-foot>
 
 	</view>
 </template>
 
 <script>
-	import Foot from '@/components/foot'
 	import Swipe from '@/components/swipe'
 	export default {
 		data() {
 			return {
 				title: 'Hello',
-				active: 0
+				
 			}
 		},
 		onLoad() {
@@ -28,10 +28,9 @@
 
 		},
 		created() {	
-
+			// console.log(this.$store.state.now_page_index);
 		},
 		components : {
-			"foot":Foot,
 			'swipe':Swipe
 		}
 	}

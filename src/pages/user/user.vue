@@ -1,38 +1,28 @@
 <template>
 	<view class="content">
-        <!-- <image class="logo" src="../../static/logo.png"></image> -->
-		<swipe></swipe>
+		<van-nav-bar title="用户"/>
 		<view>
             <text class="title">{{title}}</text>
         </view>
 
-		<foot></foot>
+		<app-foot></app-foot>
 
 	</view>
 </template>
 
 <script>
-	import Foot from '@/components/foot'
-	import Swipe from '@/components/swipe'
+
 	export default {
 		data() {
 			return {
 				title: 'Hello',
-				active: 0
 			}
 		},
 		onLoad() {
-
 		},
 		methods: {
-
 		},
-		created() {	
-
-		},
-		components : {
-			"foot":Foot,
-			'swipe':Swipe
+		created() {
 		}
 	}
 </script>
