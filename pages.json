@@ -1,0 +1,70 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/good/index",
+			"style": {
+				"navigationBarTitleText": "行情"
+			}
+		},
+		{
+			"path": "pages/pay/index",
+			"style": {
+				"navigationBarTitleText": "交易"
+			}
+		},	
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#2F4050",
+		"backgroundColor": "#FFFFFF",
+		"backgroundColorTop": "#FFFFFF"
+// 		"enablePullDownRefresh": true,
+// 		"backgroundTextStyle": "dark" 
+		// "navigationStyle":"custom"
+		
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#2F4050",
+		"color": "#9BB1C2",
+		"selectedColor": "#FBC800",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/home.png",
+				"selectedIconPath": "static/img/home_active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/good/index",
+				"iconPath": "static/img/hq.png",
+				"selectedIconPath": "static/img/hq_active.png",
+				"text": "行情"
+			},
+			{
+				"pagePath": "pages/pay/index",
+				"iconPath": "static/img/order.png",
+				"selectedIconPath": "static/img/order_active.png",
+				"text": "交易"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"iconPath": "static/img/user.png",
+				"selectedIconPath": "static/img/user_active.png",
+				"text": "我的"
+			}
+		]
+	}
+}
